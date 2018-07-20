@@ -1,0 +1,49 @@
+.form-publish {
+  background-color: white;
+  padding-left: 15px;
+  margin-bottom: 60px;
+  padding-bottom: 15px;
+  border: solid 1px grey;
+}
+
+.form-publish > .enterInfos > input {
+  display: flex;
+  width: 100%;
+  height: 25px;
+  margin-bottom: 10px;
+  border: solid 1px grey;
+  border-radius: 5px;
+}
+
+.form-publish > .enterInfos > textarea {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
+  border: solid 1px grey;
+  border-radius: 5px;
+}
+
+.enterInfos {
+  width: 50%;
+  margin-top: 20px;
+}
+
+.publishButton {
+  width: 25%;
+  margin-top: 15px;
+  height: 35px;
+  background-color: #4484d5;
+  border-radius: 5px;
+  color: white;
+}
+
+h4 {
+  width: 100%;
+  height: 20px;
+  border: solid 1px grey;
+  color: white;
+  background: grey;
+  margin: 0 auto;
+  margin-top: 30px;
+}

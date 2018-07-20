@@ -1,0 +1,77 @@
+.form-signup {
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.form-signup > .enterInfos > input {
+  display: flex;
+  width: 100%;
+  height: 25px;
+  border: solid 1px grey;
+  border-radius: 5px;
+}
+
+.enterInfos {
+  width: 50%;
+}
+
+.signUpContainer {
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.pourquoiCompte {
+  width: 50%;
+}
+
+.avantages {
+  margin-bottom: 20px;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+}
+
+.createButton {
+  width: 50%;
+  height: 35px;
+  background-color: #4484d5;
+  border-radius: 5px;
+  color: white;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.avantages > .fa-clock {
+  font-size: 40px;
+  color: #4484d5;
+  margin-right: 20px;
+}
+
+.avantages > .fa-bell {
+  font-size: 40px;
+  color: #4484d5;
+  margin-right: 20px;
+}
+
+.avantages > .fa-eye {
+  font-size: 40px;
+  color: #4484d5;
+  margin-right: 20px;
+}
+
+#email,
+#username {
+  margin: 10px 0;
+}
+
+.form-logIn label {
+  margin-top: 10px;
+}

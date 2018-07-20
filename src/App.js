@@ -8,6 +8,8 @@ import LogIn from "./containers/LogIn";
 import Profile from "./containers/Profile";
 import Offer from "./containers/Offer";
 import Header from "./components/Header";
+import Publish from "./containers/Publish";
+import CompleteOffer from "./containers/CompleteOffer";
 
 class App extends Component {
   state = {
@@ -57,15 +59,27 @@ class App extends Component {
           />
           <Route
             path="/log_in"
-            render={props => <LogIn {...props} user={user} />}
+            render={props => (
+              <LogIn {...props} user={user} setUser={this.setUser} />
+            )}
+          />
+          <Route
+            path="/publish"
+            render={props => (
+              <Publish {...props} user={user} setUser={this.setUser} />
+            )}
           />
           <Route
             path="/profile/:id"
-            render={props => <Profile {...props} user={user} />}
+            render={props => (
+              <Profile {...props} user={user} setUser={this.setUser} />
+            )}
           />
           <Route
             path="/offer/:id"
-            render={props => <Offer {...props} user={user} />}
+            render={props => (
+              <CompleteOffer {...props} user={user} setUser={this.setUser} />
+            )}
           />
         </React.Fragment>
       </Router>

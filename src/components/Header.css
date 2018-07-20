@@ -1,0 +1,61 @@
+.headerButton {
+  color: white;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+ul > .buttons {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  height: 100%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.headerButton {
+  align-items: center;
+  border-left: 1px solid white;
+  padding: 15px;
+}
+
+ul > .buttons > li:last-of-type a {
+  border-right: 1px solid white;
+}
+
+.thisH1 {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.headerContainer img {
+  height: 40px;
+}
+
+.logo {
+  padding: 0;
+}
+
+button {
+  margin-left: 20px;
+}
+
+.logo {
+  margin-top: 5px;
+}
+
+.profile {
+  padding: 15px;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  color: white;
+}

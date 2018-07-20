@@ -1,0 +1,68 @@
+.offers {
+  margin-top: 30px;
+}
+
+.homeContainer {
+  justify-content: flex-start;
+  width: 40%;
+  margin-left: 18%;
+}
+
+.anOffer {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  background-color: white;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+.anOffer:last-of-type {
+  border-bottom: 1px solid grey;
+  margin-bottom: 70px;
+}
+
+.id {
+  display: none;
+}
+
+.offerPicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+
+.offerPicture .picture {
+  height: 130px;
+  width: 130px;
+}
+
+.picture img {
+  height: 130px;
+  width: 130px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.description {
+  display: none;
+}
+
+MyInfos {
+  margin-left: 30px;
+  height: 120px;
+  width: 200px;
+  margin-top: 20px;
+}
+
+.title {
+  color: #4484d5;
+  margin-top: 10px;
+}
+
+.price {
+  color: #f36b36;
+  font-weight: 600;
+}
